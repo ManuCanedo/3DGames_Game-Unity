@@ -1,4 +1,5 @@
-# LaMuuheredera-Unity
+# La Muuheredera
+
 First approach to Game Development (Audio and Story design)
 
 Link to the build files: https://drive.google.com/drive/folders/1w0pyMaJykPxpI_XOnkC9VNrshhR9aWhh?usp=sharing
