@@ -12,3 +12,6 @@ This was my first approach ever to the games development world. I helped a group
 
 # Box Shooter
 
+First approach to the shooter mechanics and simple feedback through audio.
+
+Link to the build files: https://drive.google.com/file/d/1timJ_0cREk6EP5F5wg5fLCJVNF_FFiyD/view?usp=sharing
