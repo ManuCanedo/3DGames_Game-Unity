@@ -15,3 +15,12 @@ This was my first approach ever to the games development world. I helped a group
 First approach to the shooter mechanics and simple feedback through audio.
 
 Link to the build files: https://drive.google.com/file/d/1timJ_0cREk6EP5F5wg5fLCJVNF_FFiyD/view?usp=sharing
+
+
+# Solar System Simulation
+
+Very simple Unity 3D environement that shows the planets orbiting around the Sun. The distances between objects and size of the sun have been rescaled logaritmically. The orbit speeds and spins are linearly rescalated and maintain a realistic relation. To change the camera view click on the planets and the sun. 
+
+The most pleasant part of this project is that the planets are 3D sources for the tracks of Us and Them from Pink Floyd. The listener is located at the sun and reorients towards the planets when you click on them. This means that the audio tracks slowly orbit around you, the listener, and that the panning/3D spatialization changes every time you click on a planet to change the view.
+
+Link to the build files: https://drive.google.com/file/d/14G1SAO9UBbcKVrI-914kdrYoWJHIskp9/view?usp=sharing
