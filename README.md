@@ -7,7 +7,7 @@ In this game you are "Jesus from Redondela" a local neighbour from the town of R
 Link to the Build files: https://drive.google.com/file/d/1fYe5r9E-Xhnv2QExDxN15_Xd_9TtGccJ/view?usp=sharing
 
 
-# Virtual Market
+# Virtual Market (Hackathon HACKatHOME 2020)
 
 3D Supermarket environement winner of competition HACKatHOME 2020 -  Xunta de Galicia.
 
