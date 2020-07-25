@@ -2,7 +2,7 @@
 
 Sandbox Shooter developed in the last gamejam. 
 
-In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fyord from un-sustainable fishing. You have some interesting skills that allow you accomplish your goal.
+In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fjord from unsustainable fishing. You have some interesting skills that allow you accomplish your goal.
 
 Link to the Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing
 
