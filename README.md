@@ -1,10 +1,13 @@
 # Xesus De Redondela (Gamejam As Meninas 2020)
 
-Sandbox Shooter developed in the last gamejam. 
+Sandbox Shooter developed in the last gamejam.
 
 In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fjord from unsustainable fishing. You have some interesting miraculous abilities that allow you accomplish your goal.
 
 Link to the Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing
+
+I did the game concept and implementation. 3D modelling and menus by Fran Baez and Bruno Platero.
+Development time: 3 days.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -14,7 +17,9 @@ Link to the Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB
 
 Link to the Build files: https://drive.google.com/file/d/1ja7gA4-t2KTtPWbRPoVKkE07lDgJk82b/view?usp=sharing
 
-Link to the original presentation video (Spanish):
+Solo Dev.
+3D Models from Asset Store.
+Development time: 3 days.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
