@@ -6,6 +6,7 @@ In this game you are "Jesus from Redondela" a local neighbour from the town of R
 
 Link to the Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # Virtual Market (Hackathon HACKatHOME 2020)
 
@@ -14,6 +15,14 @@ Link to the Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB
 Link to the Build files: https://drive.google.com/file/d/1ja7gA4-t2KTtPWbRPoVKkE07lDgJk82b/view?usp=sharing
 
 Link to the original presentation video (Spanish):
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Box Shooter
+
+First approach to the shooter mechanics and simple feedback through audio.
+
+Link to the build files: https://drive.google.com/file/d/1timJ_0cREk6EP5F5wg5fLCJVNF_FFiyD/view?usp=sharing
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -38,12 +47,3 @@ This was my first approach ever to the games development world. I helped a group
 -Terrain Design and prototyping.
 -Music and SFX desing.
 -Audio Implementation.
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-# Box Shooter
-
-First approach to the shooter mechanics and simple feedback through audio.
-
-Link to the build files: https://drive.google.com/file/d/1timJ_0cREk6EP5F5wg5fLCJVNF_FFiyD/view?usp=sharing
-
