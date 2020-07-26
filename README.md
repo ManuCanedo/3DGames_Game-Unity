@@ -2,7 +2,7 @@
 
 Sandbox Shooter developed in the last gamejam.
 
-In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fjord from unsustainable fishing. You have some interesting miraculous abilities that allow you accomplish your goal.
+In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fjord from unsustainable fishing. You have some interesting miraculous abilities that will allow you to accomplish your goal.
 
 Gameplay Video: https://youtu.be/noIrCrttlzs
 
@@ -45,7 +45,7 @@ Link to the build files: https://drive.google.com/file/d/14G1SAO9UBbcKVrI-914kdr
 
 # La Muuheredera
 
-First approach to Game Development (Audio and Story design)
+First approach to Game Development (Audio and Concept Design)
 
 Link to the build files: https://drive.google.com/file/d/1fYUJmLy9KGGy7x4YIYOWRaaJb1qn0Dz2/view?usp=sharing
 
