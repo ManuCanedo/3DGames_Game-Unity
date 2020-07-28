@@ -6,7 +6,7 @@ In this game you are "Jesus from Redondela" a local neighbour from the town of R
 
 After finishing the jam I started redoing the Audio Implementation using Wwise looking for a realistic ambience.
 
-Wwise Audio Implementation build (Work In Progress):
+Wwise Audio Implementation build (WIP):
 
 Original Gameplay Video: https://youtu.be/noIrCrttlzs
 Original Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing
