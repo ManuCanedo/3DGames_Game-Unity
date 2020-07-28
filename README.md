@@ -1,12 +1,15 @@
-# Xesus De Redondela (Gamejam As Meninas 2020)
+# Xesus De Redondela (Gamejam As Meninas 2020) - Wwise Audio
 
 Sandbox Shooter developed in the last gamejam.
 
 In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fjord from unsustainable fishing. You have some interesting miraculous abilities that will allow you to accomplish your goal.
 
-Gameplay Video: https://youtu.be/noIrCrttlzs
+After finishing the jam I started redoing the Audio Implementation using Wwise looking for a realistic ambience.
 
-Link to the Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing
+Wwise Audio Implementation build (Work In Progress):
+
+Original Gameplay Video: https://youtu.be/noIrCrttlzs
+Original Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing
 
 I did the game concept and implementation (game mechanics, ai, visuals). 3D modelling and menus by Fran Baez and Bruno Platero.
 Development time: 3 days.
