@@ -8,7 +8,6 @@ After finishing the jam I started redoing the Audio Implementation using Wwise l
 
 Wwise Audio Implementation build (WIP): https://drive.google.com/file/d/1CIZZt9VVq2f8pK5jxn2DIV46a-i61rtu/view?usp=sharing
 
-Original Gameplay Video: https://youtu.be/noIrCrttlzs
 Original Build files: https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing
 
 I did the game concept and implementation (game mechanics, ai, visuals). 3D modelling and menus by Fran Baez and Bruno Platero.
