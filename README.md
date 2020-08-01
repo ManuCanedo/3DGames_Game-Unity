@@ -45,17 +45,3 @@ Unity 3D environement that shows the planets orbiting around the Sun. The distan
 The most pleasant part of this project is that the planets are 3D sound sources for the tracks of Us and Them from Pink Floyd. The listener is located at the sun and reorients towards the planets when you click on them. This means that the audio tracks slowly orbit around you, the listener, and that the panning/3D spatialization changes every time you click on a planet to change the view.
 
 Link to the build files: https://drive.google.com/file/d/14G1SAO9UBbcKVrI-914kdrYoWJHIskp9/view?usp=sharing
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-# La Muuheredera
-
-First approach to Game Development (Audio and Concept Design)
-
-Link to the build files: https://drive.google.com/file/d/1fYUJmLy9KGGy7x4YIYOWRaaJb1qn0Dz2/view?usp=sharing
-
-This was my first approach ever to the games development world. I helped a group of classmates to bootstrap their project writing a story for their game (related to a Saramago's book fragment), character arcs and some leit-motivic music. The story and base idea got widely accepted so I continued volunteeringly working in it with the team for a couple of months more (2 meetings per week). My contributions to the actual development were:
-
--Terrain Design and prototyping.
--Music and SFX desing.
--Audio Implementation.
