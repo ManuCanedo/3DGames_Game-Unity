@@ -4,7 +4,7 @@ Sandbox Shooter developed in the last gamejam.
 
 In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fjord from unsustainable fishing. You have some interesting miraculous abilities that will allow you to accomplish your goal.
 
-After finishing the jam I started redoing the Audio Implementation using Wwise looking for a realistic ambience.
+After finishing the jam I started redoing the audio implementation using Wwise looking for a realistic ambience.
 
 Wwise Audio Implementation build (WIP): https://drive.google.com/file/d/1CIZZt9VVq2f8pK5jxn2DIV46a-i61rtu/view?usp=sharing
 
