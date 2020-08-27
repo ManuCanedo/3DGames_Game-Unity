@@ -10,7 +10,7 @@ After finishing the jam I started redoing the audio implementation using Wwise l
 
 [Gamejam build files](https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing)
 
-I did the game concept and implementation (game mechanics, AI, visuals effects...). 3D modelling and menus by Fran Baez and Bruno Platero.
+I did the **game concept and implementation** (game mechanics, AI, visuals effects...). 3D modelling and menus by Fran Baez and Bruno Platero.
 Development time: 3 days.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21,7 +21,7 @@ Development time: 3 days.
 
 [Link to the build files](https://drive.google.com/file/d/1ja7gA4-t2KTtPWbRPoVKkE07lDgJk82b/view?usp=sharing)
 
-Solo development.
+**Solo development**.
 3D models from Asset Store.
 Development time: 3 days.
 
