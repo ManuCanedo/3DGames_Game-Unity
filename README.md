@@ -1,35 +1,17 @@
-# Xesus De Redondela (Gamejam As Meninas 2020) - Wwise Audio
+# University Projects
 
-Sandbox Shooter developed in the last gamejam.
+These are some projects I gathered from my file system. They are a sample of the code I wrote during my Telecommunications Engineering studies (University of Vigo).
 
-In this game you are "Jesus from Redondela" a local neighbour from the town of Redondela in charge of protecting the fjord from unsustainable fishing. You have some interesting miraculous abilities that will allow you to accomplish your goal.
+## [Game prototypes (Unity, Wwise)](https://github.com/ManuCanedo/UniProjects/tree/master/3DGames-Unity)   
 
-After finishing the jam I started redoing the audio implementation using Wwise looking for a realistic ambience.
+## [Two years of sound theory research (MATLAB)](https://github.com/ManuCanedo/UniProjects/tree/master/InharmonicityGuitarStrings_Research-MATLAB)  
 
-[Wwise Audio Implementation build (Work In Progress)](https://drive.google.com/file/d/1IIyiB5jXmwdjbzGjUtEl92tCmbGwaghw/view?usp=sharing)
+## [Automatic/Robotic Guitar Tuner (Python)](https://github.com/ManuCanedo/UniProjects/tree/master/GuitarAutoTune-Python)  
 
-[Gamejam build files](https://drive.google.com/file/d/1A9iJXPtB-awyLVe09eNGjB_j_1ac6ECj/view?usp=sharing)
+## [Basic Console Games (Cpp)](https://github.com/ManuCanedo/UniProjects/tree/master/SmallGames-Cpp)  
 
-I did the game concept and implementation (game mechanics, AI, visuals effects...). 3D modelling and menus by Fran Baez and Bruno Platero.
-Development time: 3 days.
+## [Computer Vision app (Cpp, OpenCV)](https://github.com/ManuCanedo/UniProjects/tree/master/WebcamIdCardProcessor_OpenCV-Cpp)  
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+## [Web Servlet (Java, XML)](https://github.com/ManuCanedo/UniProjects/tree/master/Servlet_Implementation-Java)  
 
-# Virtual Market (Hackathon HACKatHOME 2020)
-
-3D Supermarket environement winner of competition HACKatHOME 2020 -  Xunta de Galicia.
-
-[Link to the build files](https://drive.google.com/file/d/1ja7gA4-t2KTtPWbRPoVKkE07lDgJk82b/view?usp=sharing)
-
-Solo development.
-3D models from Asset Store.
-Development time: 3 days.
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-# Box Shooter
-
-First approach to the shooter mechanics and simple feedback through audio.
-
-[Link to the build files](https://drive.google.com/file/d/1timJ_0cREk6EP5F5wg5fLCJVNF_FFiyD/view?usp=sharing)
+## [Basic Web Development (HTML, Javascript, PHP)](https://github.com/ManuCanedo/UniProjects/tree/master/WebDevelopmentFundamentals-HTML-JS-PHP)  
