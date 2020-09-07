@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="duracion">
+	<xs:restriction base="xs:integer">
+		<xs:minInclusive value="1"/>
+		<xs:maxInclusive value="599"/>
+	</xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="idc">
+	<xs:restriction base="xs:string">
+		<xs:pattern value="[0-9]{4}-[0-9]{3}-[0-9]{3}-[0-9]{2}"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="idd" > 
+       <xs:restriction base="xs:string"> 
+                <xs:pattern value="[0-9]{4}-[0-9]{3}-[0-9]{3}"/>
+       </xs:restriction> 
+ </xs:simpleType>
+<xs:simpleType name="lang">
+       <xs:restriction base="xs:string"> 
+               <xs:pattern value="[A-Za-z]{2}"/>
+        </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="langs" >
+      <xs:list itemType="lang"/>
+</xs:simpleType>
+
+<xs:simpleType name="anio">
+	<xs:restriction base = "xs:integer" >
+		<xs:minInclusive value = "1900" />
+		<xs:maxInclusive value = "2018" />
+	</xs:restriction>
+</xs:simpleType>
+    <xs:element name="Songs">
+        <xs:complexType>
+			<xs:sequence>
+            	<xs:element name="Anio" type="anio" minOccurs="1" maxOccurs="1"/>	
+				<xs:element name="Pais" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Disco" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Titulo" type="xs:string"/>
+										<xs:element name="Premios" minOccurs="0" maxOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Premio" maxOccurs="unbounded">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="DiscoDeOro"/>
+																<xs:enumeration value="Grammy"/>
+																<xs:enumeration value="LamparaMinera"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Interprete" type="xs:string" minOccurs="1" maxOccurs="1"/>
+										<xs:element name="Cancion" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType mixed="true">
+												<xs:sequence>
+													<xs:element name="Titulo" type="xs:string" minOccurs="1" maxOccurs="1"/>
+														
+
+													<xs:element name="Duracion" type="duracion" minOccurs="1" maxOccurs="1"/>
+													
+													<xs:element name="Genero" maxOccurs="unbounded">
+															<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="Rock"/>
+																<xs:enumeration value="Pop"/>
+																<xs:enumeration value="Country"/>
+																<xs:enumeration value="Balada"/>
+															</xs:restriction>
+															</xs:simpleType>
+														</xs:element>	
+												
+													
+													<xs:element name="Version" minOccurs="0">
+														<xs:complexType>
+															<xs:sequence>
+															<xs:choice>
+															<xs:element name="Titulo" minOccurs="1" maxOccurs="1"/>
+															<xs:element name="Idc" type="idc" minOccurs="1" maxOccurs="1">
+																	
+																	</xs:element>
+																</xs:choice>
+														<xs:element name="IML" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
+															</xs:sequence>
+														<xs:attribute name="anio" type="xs:positiveInteger" use="required"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+													<xs:attribute name="idc" type="idc" use="required"/>
+                           										
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="idd" type="idd"  use="required"/>
+                           				
+									<xs:attribute name="langs" type="langs"/>
+							
+                				</xs:complexType>
+             				</xs:element>
+            			</xs:sequence>
+				<xs:attribute name="pais" type="xs:string" use="required"/>
+            			<xs:attribute name="lang"  use="required">
+              				<xs:simpleType >
+                 				<xs:restriction base="xs:string"> 
+                    				<xs:pattern value="[A-Za-z]{2}"/>
+                  				</xs:restriction>
+              				</xs:simpleType>
+            			</xs:attribute>  
+        			</xs:complexType>
+      			</xs:element>
+    		</xs:sequence>
+		</xs:complexType>
+	</xs:element>  
+</xs:schema>
+
+
+
+
+									
+
+
+													
+
+
+
+
+
+							

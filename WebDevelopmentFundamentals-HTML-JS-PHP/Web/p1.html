@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Manuel Canedo Tabarés"/>
+        <meta name="description" content="Practica 1"/>
+        <title> Filmafinidad </title>
+        <script src="p1.js"></script>
+        <link href="p1.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+        <H1> FILMAFINIDAD: tu cr&iacute;tica importa. </H1>
+        <H2> Formulario de registro </H2>
+        <form onSubmit="return enviarFormulario()" id="formulario" method="POST">
+
+            <fieldset>
+                <legend>Datos personales</legend>
+                <h3 id="nombre"><input type="text" size="30" maxlength="30" value="" name="nombre" placeholder="Nombre" onblur="checktexto(nombre)"></h3>
+                <h3 id="apellidos"><input type="text" size="30"  value="" name="apellidos" placeholder="Apellidos" onblur="checktexto(apellidos)"></h3>
+                <h5><i>El nombre y los apellidos no deben contener n&uacute;meros</i></h5>
+                <h3 id="fecha"><input type="text" size="20" maxlength="30" value="" name="fechaIntroducida" placeholder="Fecha de nacimiento" onblur="validarFecha(fechaIntroducida)"></h3>
+                <h5><i>El formato de la fecha debe ser dd/mm/aaaa</i></h5>
+                <h3>Seleccione su g&eacute;nero </h3>
+                <h5 id="hombre"><input name="gender" type="radio" value="Hombre" />Hombre</h5>
+                <h5 id="mujer"><input name="gender" type="radio" value="Mujer" />Mujer</h5>
+                <h3>Foto de perfil</h3>
+                <h5><input type="file" name="archivo"></h5>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Inicio de sesi&oacute;n</legend>
+                <h3 id="email"><input type="email" size="30" value="" name="email" placeholder="Correo Electr&oacute;nico" onblur="checkmail(email)"></h3>
+                <h5><i>El email debe contener "@" y "."</i></h5>
+                <h3>Contraseña: <input type="password" name=pass1 id="pass1"></h3>
+                <h3>Repita la contraseña: <input type="password" name="pass2" id="pass2" onblur="checkpass()"></h3>
+                <h5><i>Las contraseñas deben coincidir.</i></h5>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Intereses</legend>
+                <h3>Seleccione los g&eacute;neros de su inter&eacute;s</h3>
+                <h5 id="accion"><input name="cbiaccion" type="checkbox" />Acci&oacute;n</h5>
+                <h5 id="comedia"><input name="cbicomedia" type="checkbox" />Comedia</h5>
+                <h5 id="drama"><input name="cbidrama" type="checkbox" />Drama</h5>
+                <h5 id="terror"><input name="cbiterror" type="checkbox" />Terror</h5>
+                <h5 id="suspense"><input name="cbisuspense" type="checkbox" />Suspense</h5>
+                <h5 id="animacion"><input name="cbianimacion" type="checkbox" />Animaci&oacute;n</h5>
+                <h5><input name="genero[]" onclick="checkall(this)" type="checkbox" value="" />Seleccionar/Deseleccionar todo</h5>
+                <h5 id="frecuencia">Seleccione la frecuencia con la que recibir&aacute; novedeades en su correo:
+                    <select name="frecuencia">
+                        <option>Diariamente</option>
+                        <option>Semanalmente</option>
+                        <option>Mensualmente</option>
+                        <option>Nunca</option>
+                    </select>
+                </h5>
+                <p id="comentario"><textarea name="comentario" rows="5" cols="50" placeholder="Puede añadir aquí su comentario: "></textarea></p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Env&iacute;o del formulario</legend>
+                <h3>M&eacute;todo de env&iacute;o:</h3>
+                <h5 id="sendget"><input name="metodo" type="radio" value="GET" onclick="metodoGET()"/>GET</h5>
+                <h5 id="sendpost"><input name="metodo" type="radio" value="POST" checked onclick="metodoPOST()"/>POST</h5>
+                <h3>Codificación:</h3>
+                <h5><input type="radio" name="codif" id="urlencoded" value="application/x-www-form-urlencoded" checked onclick="">application/x-www-form-urlencoded</h5>
+                <h5><input type="radio" name="codif" id="multipart" value="multipart/form-data">multipart/form-data</h5>
+                <h5><i>La codificación 'multipart/form-data' sólo está disponible para el método 'POST'.</i></h5>
+                <h3>Direcci&oacute;n de env&iacute;o:</h3>
+                <h5><input type="radio" name="phpinfo" id = "phpinfo" value="./phpinfo.php">phpinfo.php</h5>
+                <h5><input type="radio" name="phpinfo" id = "myphp" value="p1.php" checked>p1.php</h5>
+                <input type="hidden" id="horaEnvio" name="horaEnvio">
+                <input type="hidden" id="navegador" name="navegador">
+            </fieldset>
+
+            <h5><input type="submit" value="Enviar formulario">
+                <input type="reset" value="Borrar todo"></h5>
+            <hr>
+        </form>
+        <h5>P1 - Manuel Canedo Tabarés</h5>
+    </body>
+</html>

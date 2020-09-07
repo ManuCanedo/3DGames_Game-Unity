@@ -1,0 +1,43 @@
+function beta=CalculateInharmonicity(Fret)
+%Calculo de beta para fk=k*fo*sqrt(1+beta*k^2)
+NHarm=length(Fret.Freq);
+RefF=Fret.Freq(1);
+
+%Valores canonicos de las frecuencias de cada armónico
+CanonicPart=RefF*(1:NHarm);
+SupMarg=(RefF+Fret.Prec)*(1:NHarm);
+InfMarg=(RefF-Fret.Prec)*(1:NHarm);
+%Desviación de frecuencia
+Deviation=Fret.Freq-CanonicPart;
+for i=1:NHarm-1
+    if Deviation(i) < 0 %Todas las desviaciones deben ser positivas
+        display(['Error, partial ',num2str(i),' with negative deviation']);
+        beta(i)=0;
+        betasup(i)=0;
+        betainf(i)=0;
+    else
+        aux=(Fret.Freq(i)/CanonicPart(i))^2
+        beta(i)=(aux - 1)/(i^2);
+        beta2(i)=(aux-1)/(i^2-aux);
+         beta3(i)=(sqrt(aux) - 1)/(i^2);
+        betasup(i)=(((Fret.Freq(i)+Fret.Prec)/InfMarg(i))^2 - 1)/(i^2);
+        betainf(i)=(((Fret.Freq(i)-Fret.Prec)/SupMarg(i))^2 - 1)/(i^2);
+        a=(1+(i^2*pi^2/8));
+        c=1-Fret.Freq(i)/CanonicPart(i);
+         beta3(i)=(-1+sqrt(1-4*a*c))/2/a
+    end
+end
+beta
+mean(beta(2:end))
+std(beta(2:end))
+figure;
+plot(beta,'*');
+hold on;plot(betasup,'*r');plot(betainf,'*c');
+plot(beta2,'go');
+plot(beta3,'g<');
+%plot(beta3,'k<');
+hold off;
+figure;plot((1:9).^2,(Fret.Freq(2:end)./(1:9)).^2);%Teóricamente esto da una linea
+hold on; plot(0,Fret.Freq(1).^2,'o');hold off;
+return
+

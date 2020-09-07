@@ -1,0 +1,23 @@
+body {
+	color: #34a1ff;
+	background-color: #c6fffc;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-left: 2em
+}
+
+
+h1{
+	color: #34a1ff;
+	text-align: center;
+}
+
+h2{
+	color: #3ea5ff;
+	text-align: left;
+}
+
+h5{
+	color: #4aff9b;
+	text-align: center;
+}
+

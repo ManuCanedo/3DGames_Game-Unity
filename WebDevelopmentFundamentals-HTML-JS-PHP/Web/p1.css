@@ -1,0 +1,25 @@
+BODY{
+	background: aliceblue;
+	background-image: url("http://www.teleco.uvigo.es/templates/teleco/images/header_outer.jpg");
+}
+
+table{
+	width: 600px; /*Ancho*/
+	background: whitesmoke;
+}
+
+h1{
+	color: black;
+	text-shadow: 2px 2px 2px darkgray;
+	font-family: cambria;
+}
+
+h2{
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+}
+
+fieldset{
+	width: 600px; /*Ancho*/
+	background: whitesmoke;
+}
