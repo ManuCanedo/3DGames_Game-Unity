@@ -2,7 +2,7 @@
 
 These are some projects I gathered from my file system. They are a sample of the code I wrote during my Telecommunications Engineering studies (University of Vigo).
 
-## [Game prototypes (Unity, Wwise)](https://github.com/ManuCanedo/UniProjects/tree/master/3DGames-Unity)   
+## [Game prototypes - as a hobby (Unity, Wwise)](https://github.com/ManuCanedo/UniProjects/tree/master/3DGames-Unity)   
 
 ## [Two years of sound theory research (MATLAB)](https://github.com/ManuCanedo/UniProjects/tree/master/InharmonicityGuitarStrings_Research-MATLAB)  
 
