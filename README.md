@@ -8,7 +8,7 @@ These are some projects I gathered from my file system. They are a sample of the
 
 ## [Automatic/Robotic Guitar Tuner (Python)](https://github.com/ManuCanedo/UniProjects/tree/master/GuitarAutoTune-Python)  
 
-## [Basic Console Games (Cpp)](https://github.com/ManuCanedo/UniProjects/tree/master/SmallGames-Cpp)  
+## [Basic Console Games - as a hobby (Cpp)](https://github.com/ManuCanedo/UniProjects/tree/master/SmallGames-Cpp)  
 
 ## [Computer Vision app (Cpp, OpenCV)](https://github.com/ManuCanedo/UniProjects/tree/master/WebcamIdCardProcessor_OpenCV-Cpp)  
 
