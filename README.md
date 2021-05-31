@@ -15,3 +15,7 @@ These are some projects I gathered from my file system. They are a sample of the
 ## [Web Servlet (Java, XML)](https://github.com/ManuCanedo/UniProjects/tree/master/Servlet_Implementation-Java)  
 
 ## [Basic Web Development (HTML, Javascript, PHP)](https://github.com/ManuCanedo/UniProjects/tree/master/WebDevelopmentFundamentals-HTML-JS-PHP)  
+
+<br><br><hr>
+![window-to-the-light](media/window-to-the-light-ai.jpg?raw=true "'Window to the Light', generated with VQGAN+CLIP")
+*'Window to the Light'' - generated with VQGAN+CLIP*
