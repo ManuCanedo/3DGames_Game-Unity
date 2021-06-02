@@ -17,6 +17,8 @@ Particularly interesting to me is the research *Inharmonicity in Classical Guita
 
  [Basic Web Development (HTML, Javascript, PHP)](https://github.com/ManuCanedo/UniProjects/tree/master/web-dev-fundamentals)  
 
-<br><br><hr>
-![window-to-the-light](media/window-to-the-light-ai.jpg?raw=true "'Window to the Light', generated with VQGAN+CLIP")
-*'Window to the Light'' - generated with VQGAN+CLIP*
+<br><hr>
+<p align="center">
+  <br> <img width="480" height="480" src="media/window-to-the-light-ai.jpg">
+  <br> Window to the Light - AI generated (vqgan+clip)
+</p>
