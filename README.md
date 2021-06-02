@@ -7,12 +7,19 @@ Particularly interesting to me is the research *Inharmonicity in Classical Guita
 </p><br>
 
 [Two years of sound theory research (MATLAB)](https://github.com/ManuCanedo/UniProjects/tree/master/inarmonicity-guitar-strings-research)  
+
 [Automatic/Robotic Guitar Tuner (Python)](https://github.com/ManuCanedo/UniProjects/tree/master/guitar-auto-tuner)  
+
 [Game prototypes - as a hobby (Unity, Wwise)](https://github.com/ManuCanedo/UniProjects/tree/master/3d-games-unity)  
+
 [Basic Console Games - as a hobby (Cpp)](https://github.com/ManuCanedo/UniProjects/tree/master/making-simple-games)  
+
 [Computer Vision app (Cpp, OpenCV)](https://github.com/ManuCanedo/UniProjects/tree/master/webcam-id-segmenter)  
+
 [Web Servlet (Java, XML)](https://github.com/ManuCanedo/UniProjects/tree/master/servlet)  
+
 [Basic Web Development (HTML, Javascript, PHP)](https://github.com/ManuCanedo/UniProjects/tree/master/web-dev-fundamentals)  
+
 
 <br><hr>
 <p align="center">
